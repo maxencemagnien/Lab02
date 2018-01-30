@@ -10,16 +10,46 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To Child 1"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="82dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="To child 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
 
     <Button
         android:id="@+id/button2"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="To child 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To child 2"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="82dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="MAIN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

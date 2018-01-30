@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 import android.widget.Button;
-import android.widget.TextView;
+
 
 public class Child2_Activity extends AppCompatActivity {
 
@@ -17,7 +17,7 @@ public class Child2_Activity extends AppCompatActivity {
 
 
 
-        Button buttonnBack= (Button) findViewById(R.id.button);
+        Button buttonnBack= (Button) findViewById(R.id.button3);
         buttonnBack.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
